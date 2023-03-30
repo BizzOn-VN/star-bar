@@ -5,12 +5,7 @@ $( document ).ready(function() {
         $('.page-starbar .wrapper-starbar .content-text').addClass('ani-mixo-4');
 });
 
-$(window).scroll(function(){
-    if ($(window).scrollTop() >= 100) {
-        $('.slide-starbar .right-slide .img-right-slide').addClass('ani-right-slide');
-        $('.slide-starbar .right-slide .img-bg-slide').addClass('ani-right-slide-2');
-    }               
-});
+
 
 $('.slide-starbar .owl-carousel').owlCarousel({
     loop:true,
