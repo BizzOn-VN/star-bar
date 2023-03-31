@@ -200,7 +200,7 @@
 .wrapper-detail .md-row .md-col-3{
 	/*width: calc(100%/3);
 	float: left;*/
-	flex: 0 0 33.33333%;
+	flex-basis: calc(100%/3);
 	position: relative;
 }
 .wrapper-detail .md-row .md-col-3 img{
@@ -217,10 +217,11 @@
 .wrapper-detail .md-row .md-col-3 .content h4{
 	text-transform: uppercase;
 	color: #ff9000;
+	font-size: calc(7px + 2vw);
 }
 .wrapper-detail .md-row .md-col-3 .content p{
-	margin-bottom: 5px;
-	font-size: calc(4px + 1vw);
+	margin-bottom: 3px;
+	font-size: calc(3px + 1.2vw);
 }
 
 @media screen and (max-width: 767px){
