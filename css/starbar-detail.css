@@ -284,7 +284,9 @@
 	}
 }
 
-
+.wrapper-detail-other {
+	margin-bottom: 20px;
+}
 .wrapper-detail-other .owl-theme .owl-nav .owl-next{
 	background: url(../images/detail/ico-next.png) no-repeat;
     background-size: 100% 100%;
@@ -332,8 +334,44 @@
 	display: table;
 	color: #000000;
 }
-
+.slide-starbar .owl-theme .owl-nav{
+	margin-top: 0px;
+}
+.banner-cuoc-thi-anh{
+	position: relative;
+}
+.banner-cuoc-thi-anh img{
+	width: 100%;
+}
+.banner-cuoc-thi-anh .bt-thungay{
+	position: absolute;
+    left: 11%;
+    bottom: 8%;
+    width: 13%;
+    height: 10%;
+}
+.banner-cuoc-thi-anh .bt-thuvien {
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    width: 15%;
+    height: 10%;
+}
 @media screen and (max-width: 767px){
+	.banner-cuoc-thi-anh .bt-thungay {
+	    position: absolute;
+	    left: 9%;
+	    bottom: 5%;
+	    width: 18%;
+	    height: 7%;
+	}
+	.banner-cuoc-thi-anh .bt-thuvien {
+	    position: absolute;
+	    left: 28%;
+	    bottom: 5%;
+	    width: 20%;
+	    height: 7%;
+	}
 	.wrapper-detail .banner-detail .right-banner-detail .slide-text-2{
 		margin-bottom: 5px;
 	}
