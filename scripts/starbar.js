@@ -41,4 +41,45 @@ $('.slide-other .owl-carousel').owlCarousel({
             items:4
         }
     }
-})
+});
+
+$(".md-nav-tab .item span").click(function(){
+   var cc_Sd = $(this).attr("data-href");
+   $(".md-nav-tab .item span").removeClass("active");
+   $(this).addClass("active");
+   $(".md-content-tab").removeClass("active");
+   $(cc_Sd).addClass("active");
+});
+$(".smd-nav-control span").click(function(){
+    var sc89_jh= $(this).attr("data-href");
+    $(".md-navbar .tab-pane").removeClass('active');
+    $(sc89_jh).addClass("active");
+});
+
+$(".md-nav-tab-1 .item span").click(function(){
+   var cc_Sd = $(this).attr("data-href");
+   $(".md-nav-tab-1 .item span").removeClass("active");
+   $(this).addClass("active");
+   $(".md-content-tab-1").removeClass("active");
+   $(cc_Sd).addClass("active");
+});
+$(".smd-nav-control-1 span").click(function(){
+    var sc89_jh= $(this).attr("data-href");
+    $(".md-navbar-1 .tab-pane").removeClass('active');
+    $(sc89_jh).addClass("active");
+});
+
+$(document).ready(function() {
+    
+    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
+    var add_button      = $(".add_field_button"); //Add button ID
+    
+    
+    $(add_button).click(function(e){ //on add input button click
+        e.preventDefault();
+        $(wrapper).append('<input type="text" />'); 
+    });
+    
+    
+});
+
