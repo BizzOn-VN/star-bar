@@ -432,13 +432,13 @@
     width: 94.5%;
 }
 .page-cuoc-thi-anh .content-baithi .md-right h4{
-	font-size: calc(10px + 3vw);
+	font-size: calc(25px + 1vw);
 	margin-bottom: 10px;
 }
 .page-cuoc-thi-anh .content-baithi .md-right h6{
 	margin-bottom: 5px;
 	padding-bottom: 5px;
-	font-size: calc(3px + 2vw);
+	font-size: calc(12px + 1vw);
 }
 .page-cuoc-thi-anh .content-baithi .md-right .md-nguyenlieu{
 	margin-bottom: 10px;
@@ -643,6 +643,7 @@
 	.page-cuoc-thi-anh .content-baithi .md-right h6{
 		margin-bottom: 0px;
 		padding-bottom: 0px;
+		font-size: calc(5px + 1.7vw);
 	}
 	.page-cuoc-thi-anh .content-baithi .md-right h6{
 		margin-bottom: 0px;
