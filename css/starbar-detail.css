@@ -194,19 +194,21 @@
 .wrapper-detail .banner-detail .right-banner-detail p span{
 	font-family: "SVN-GothamBold";
 }
-.wrapper-detail .md-row {
-	display: flex;
+.wrapper-detail .row {
+	/*display: flex;*/
+	margin: 0px;
 }
-.wrapper-detail .md-row .md-col-3{
+.wrapper-detail .row .col-md-4{
 	/*width: calc(100%/3);
 	float: left;*/
-	flex-basis: calc(100%/3);
+	/*flex-basis: calc(100%/3);*/
 	position: relative;
+	padding: 0px;
 }
-.wrapper-detail .md-row .md-col-3 img{
+.wrapper-detail .row .col-md-4 img{
 	width: 100%;
 }
-.wrapper-detail .md-row .md-col-3 .content{
+.wrapper-detail .row .col-md-4 .content{
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -214,14 +216,15 @@
 	text-align: center;
 	transform: translate(-50%,-50%);
 }
-.wrapper-detail .md-row .md-col-3 .content h4{
+.wrapper-detail .row .col-md-4 .content h4{
 	text-transform: uppercase;
 	color: #ff9000;
-	font-size: calc(7px + 2vw);
+	font-size: calc(20px + 1vw);
+	line-height: 1.3;
 }
-.wrapper-detail .md-row .md-col-3 .content p{
+.wrapper-detail .row .col-md-4 .content p{
 	margin-bottom: 3px;
-	font-size: calc(3px + 1.2vw);
+	font-size: calc(10px + 0.5vw);
 }
 
 @media screen and (max-width: 767px){
@@ -271,6 +274,35 @@
 	}
 	.slide-starbar .left-slide .slide-text-3{
 		width: 90%;
+	}
+	.wrapper-detail .slide-text-3{
+		width: 60%;
+		margin: 0 auto 20px auto;
+		display: table;
+	}
+	.wrapper-detail .banner-detail{
+		position: relative;
+	}
+	.wrapper-detail .slide-text-2{
+		width: 15%;
+		position: absolute;
+		right: 25px;
+		top: 5px;
+	}
+	/*.wrapper-detail{
+		padding: 30px 0px;
+	}*/
+	.wrapper-detail .banner-detail .left-banner-detail{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.wrapper-detail .banner-detail .right-banner-detail{
+		width: 100%;
+		margin: 0px;
+		text-align: center;
+	}
+	.wrapper-detail .banner-detail{
+		padding: 30px 20px;
 	}
 }
 @media screen and (max-width: 500px){
@@ -382,16 +414,16 @@
 	.wrapper-detail .banner-detail .right-banner-detail{
 		padding: 5px 0px;
 	}
-	.wrapper-detail .md-row .md-col-3 .content h4{
-		font-size: calc(3px + 2.5vw);
+	.wrapper-detail .row .col-md-4 .content h4{
+		font-size: calc(10px + 2.5vw);
 	    margin-bottom: 5px;
-	    line-height: 20px;
+	    line-height: 1.3;
 	}
-	.wrapper-detail .md-row .md-col-3 .content p{
+	.wrapper-detail .row .col-md-4 .content p{
 		margin-bottom: 0px;
 	}
-	.wrapper-detail .md-row .md-col-3 .content p{
-		font-size: 1.5vw;
+	.wrapper-detail .row .col-md-4 .content p{
+		font-size: calc(5px + 1vw);
 	}
 	.wrapper-detail .banner-detail .right-banner-detail p{
 		font-size: 1.8vw;
