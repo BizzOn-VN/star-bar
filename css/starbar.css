@@ -2,6 +2,13 @@
 	width: 100%;
 	
 }
+.breadcrumb-color{
+	background-color: #ffcf32 !important;
+}
+.bg-starbar{
+	background: url(../images/cuoc-thi-anh/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
 
 .ani-mixo-2{
 	animation: mixology-2 10s  ease-out forwards;

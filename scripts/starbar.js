@@ -32,10 +32,10 @@ $('.slide-other .owl-carousel').owlCarousel({
     autoplay:true,
     responsive:{
         0:{
-            items:2.5
+            items:2.2
         },
         600:{
-            items:3.5
+            items:2.3
         },
         1000:{
             items:4
