@@ -83,4 +83,4 @@ $(document).ready(function() {
     
 });
 
-$("#modal-sucess").fancybox().trigger('click');
+// $("#modal-sucess").fancybox().trigger('click');
