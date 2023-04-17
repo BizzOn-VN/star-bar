@@ -405,34 +405,57 @@ font-face {
 .banner-cuoc-thi-anh img{
 	width: 100%;
 }
+.banner-cuoc-thi-anh .wrapper-banner{
+	position: relative;
+}
 .banner-cuoc-thi-anh .bt-thungay{
 	position: absolute;
-    left: 11%;
+    left: 23%;
     bottom: 8%;
-    width: 13%;
-    height: 10%;
+    padding: 7px 15px;
+    background: #000;
+    border-radius: 20px;
+    line-height: 0.8;
+    color: #FFF;
+    font-size: 0.9vw;
 }
 .banner-cuoc-thi-anh .bt-thuvien {
     position: absolute;
-    left: 25%;
+    left: 33%;
     bottom: 8%;
-    width: 15%;
-    height: 10%;
+    padding: 7px 15px;
+    background: #000;
+    border-radius: 20px;
+    line-height: 0.8;
+    color: #FFF;
+     font-size: 0.9vw;
+}
+.wrapper-banner .bt-thungay:hover{
+	text-decoration: none;
+	background: #faad4b;
+}
+.wrapper-banner .bt-thuvien:hover{
+	text-decoration: none;
+	background: #faad4b;
 }
 @media screen and (max-width: 767px){
 	.banner-cuoc-thi-anh .bt-thungay {
 	    position: absolute;
-	    left: 9%;
+	    left: 4%;
 	    bottom: 5%;
-	    width: 18%;
-	    height: 7%;
+	    padding: 10px 15px;
 	}
 	.banner-cuoc-thi-anh .bt-thuvien {
 	    position: absolute;
-	    left: 28%;
+	    left: 27%;
 	    bottom: 5%;
-	    width: 20%;
-	    height: 7%;
+	    padding: 10px 15px;
+	}
+	.banner-cuoc-thi-anh .bt-thungay{
+		font-size: 2.3vw;
+	}
+	.banner-cuoc-thi-anh .bt-thuvien{
+		font-size: 2.3vw;
 	}
 	.wrapper-detail .banner-detail .right-banner-detail .slide-text-2{
 		margin-bottom: 5px;

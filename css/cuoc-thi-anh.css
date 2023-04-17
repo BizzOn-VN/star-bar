@@ -8,15 +8,31 @@
 	position: absolute;
     left: 22%;
     bottom: 8%;
-    width: 10%;
-    height: 10%;
+    padding: 7px 15px;
+    background: #000;
+    border-radius: 20px;
+    line-height: 0.8;
+    color: #FFF;
+    font-size: calc(8px + 0.5vw);
 }
 .wrapper-banner .bt-thuvien{
 	position: absolute;
     left: 33%;
     bottom: 8%;
-    width: 10%;
-    height: 10%;
+    padding: 7px 15px;
+    background: #000;
+    border-radius: 20px;
+    line-height: 0.8;
+    color: #FFF;
+     font-size: calc(8px + 0.5vw);
+}
+.wrapper-banner .bt-thungay:hover{
+	text-decoration: none;
+	background: #faad4b;
+}
+.wrapper-banner .bt-thuvien:hover{
+	text-decoration: none;
+	background: #faad4b;
 }
 .page-cuoc-thi-anh-detail .main-banner img{
 	width: 100%;
@@ -254,17 +270,15 @@
 	}
 	.wrapper-banner .bt-thungay{
 		position: absolute;
-	    left: 6%;
+	    left: 4%;
 	    bottom: 5%;
-	    width: 20%;
-	    height: 7%;
+	    font-size: 2.3vw;
 	}
 	.wrapper-banner .bt-thuvien{
 		position: absolute;
 	    left: 27%;
 	    bottom: 5%;
-	    width: 20%;
-	    height: 7%;
+	    font-size: 2.3vw;
 	}
 	.page-cuoc-thi-anh-detail .tab-content .pagination a{
 		padding: 6px 12px;
