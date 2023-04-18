@@ -410,25 +410,27 @@ font-face {
 }
 .banner-cuoc-thi-anh .bt-thungay{
 	position: absolute;
-    left: 23%;
-    bottom: 8%;
-    padding: 7px 15px;
+    left: 6%;
+    bottom: 9%;
+    padding: 7px 20px;
     background: #000;
     border-radius: 20px;
-    line-height: 0.8;
+    line-height: 1;
     color: #FFF;
-    font-size: 0.9vw;
+    font-size: calc(5px + 2vw);
+    font-family: "UTMBebas";
 }
 .banner-cuoc-thi-anh .bt-thuvien {
     position: absolute;
-    left: 33%;
-    bottom: 8%;
-    padding: 7px 15px;
+    left: 22%;
+    bottom: 9%;
+    padding: 7px 20px;
     background: #000;
     border-radius: 20px;
-    line-height: 0.8;
+    line-height: 1;
     color: #FFF;
-     font-size: 0.9vw;
+    font-size: calc(5px + 2vw);
+    font-family: "UTMBebas";
 }
 .wrapper-banner .bt-thungay:hover{
 	text-decoration: none;
@@ -438,24 +440,63 @@ font-face {
 	text-decoration: none;
 	background: #faad4b;
 }
+.wrapper-banner .md-text{
+	position: absolute;
+	width: 39%;
+	left: 4%;
+	line-height: 1.2;
+	top: 20%;
+	margin-bottom: 0px;
+	font-size: calc(3px + 1vw);
+	top: 60%;
+	text-align: center;
+}
+@media screen and (min-width: 1601px){
+	.wrapper-banner .md-text{
+		font-size: calc(3px + 0.6vw);
+	}
+	.banner-cuoc-thi-anh .bt-thuvien{
+		font-size: calc(5px + 1.3vw);
+	}
+	.banner-cuoc-thi-anh .bt-thungay{
+		font-size: calc(5px + 1.3vw);
+	}
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.banner-cuoc-thi-anh .bt-thungay{
+		font-size: calc(3px + 1.8vw);
+	}
+	.banner-cuoc-thi-anh .bt-thuvien{
+		font-size: calc(3px + 1.8vw);
+	}
+	.wrapper-banner .md-text{
+		font-size: calc(2px + 1vw);
+	}
+}
 @media screen and (max-width: 767px){
+	.wrapper-banner .md-text{
+		top: 41%;
+		width: 43%;
+		text-align: center;
+		font-size: calc(6px + 1vw);
+	}
 	.banner-cuoc-thi-anh .bt-thungay {
 	    position: absolute;
 	    left: 4%;
 	    bottom: 5%;
-	    padding: 10px 15px;
+	    padding: 8px 15px;
 	}
 	.banner-cuoc-thi-anh .bt-thuvien {
 	    position: absolute;
-	    left: 27%;
+	    left: 25%;
 	    bottom: 5%;
-	    padding: 10px 15px;
+	    padding: 8px 15px;
 	}
 	.banner-cuoc-thi-anh .bt-thungay{
-		font-size: 2.3vw;
+		font-size: calc(4px + 2.5vw);
 	}
 	.banner-cuoc-thi-anh .bt-thuvien{
-		font-size: 2.3vw;
+		font-size: calc(4px + 2.5vw);
 	}
 	.wrapper-detail .banner-detail .right-banner-detail .slide-text-2{
 		margin-bottom: 5px;
@@ -495,5 +536,16 @@ font-face {
 	}
 	.wrapper-detail .row .col-md-4 .content p{
 		font-size: calc(7px + 0.5vw);
+	}
+	.wrapper-banner .md-text{
+		font-size: calc(4px + 1vw);
+	}
+	.banner-cuoc-thi-anh .bt-thungay{
+		font-size: calc(4px + 1.8vw);
+		padding: 7px 13px;
+	}
+	.banner-cuoc-thi-anh .bt-thuvien{
+		font-size: calc(4px + 1.8vw);
+		padding: 7px 13px;
 	}
 }

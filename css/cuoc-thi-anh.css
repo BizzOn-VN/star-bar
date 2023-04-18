@@ -4,27 +4,40 @@
 .wrapper-banner{
 	position: relative;
 }
+.wrapper-banner .md-text{
+	position: absolute;
+	width: 39%;
+	left: 4%;
+	line-height: 1.2;
+	top: 20%;
+	margin-bottom: 0px;
+	font-size: calc(7px + 1vw);
+	top: 60%;
+	text-align: center;
+}
 .wrapper-banner .bt-thungay{
 	position: absolute;
-    left: 22%;
-    bottom: 8%;
-    padding: 7px 15px;
+    left: 6%;
+    bottom: 9%;
+    padding: 7px 20px;
     background: #000;
     border-radius: 20px;
-    line-height: 0.8;
+    line-height: 1;
     color: #FFF;
-    font-size: calc(8px + 0.5vw);
+    font-size: calc(5px + 2vw);
+    font-family: "UTMBebas";
 }
 .wrapper-banner .bt-thuvien{
 	position: absolute;
-    left: 33%;
-    bottom: 8%;
-    padding: 7px 15px;
+    left: 22%;
+    bottom: 9%;
+    padding: 7px 20px;
     background: #000;
     border-radius: 20px;
-    line-height: 0.8;
+    line-height: 1;
     color: #FFF;
-     font-size: calc(8px + 0.5vw);
+    font-size: calc(5px + 2vw);
+    font-family: "UTMBebas";
 }
 .wrapper-banner .bt-thungay:hover{
 	text-decoration: none;
@@ -210,6 +223,21 @@
 		font-size: calc(7px + 0.2vw);
 	}
 }
+@media screen and (min-width: 1601px){
+	.wrapper-banner .bt-thungay{
+		font-size: calc(3px + 3vw);
+		padding: 10px 30px;
+	}
+	.wrapper-banner .bt-thuvien{
+		font-size: calc(3px + 3vw);
+		padding: 10px 30px;
+	}
+	.wrapper-banner .md-text{
+		font-size: calc(2px + 2vw);
+		
+		top: 55%;
+	}
+}
 
 @media screen and (max-width: 991px){
 	.page-cuoc-thi-anh-detail .md-right h4{
@@ -238,6 +266,9 @@
 	}
 	.md-popupbaithi .page-cuoc-thi-anh-detail .md-right .md-name p{
 		font-size: calc(5px + 0.5vw);
+	}
+	.wrapper-banner .md-text{
+		font-size: calc(5px + 1vw);
 	}
 }
 @media screen and (max-width: 767px){
@@ -272,13 +303,19 @@
 		position: absolute;
 	    left: 4%;
 	    bottom: 5%;
-	    font-size: 2.3vw;
+	    font-size: calc(4px + 2.5vw);
 	}
 	.wrapper-banner .bt-thuvien{
 		position: absolute;
-	    left: 27%;
+	    left: 25%;
 	    bottom: 5%;
-	    font-size: 2.3vw;
+	    font-size: calc(4px + 2.5vw);
+	}
+	.wrapper-banner .md-text{
+		top: 41%;
+		width: 43%;
+		text-align: center;
+		font-size: calc(8px + 1vw);
 	}
 	.page-cuoc-thi-anh-detail .tab-content .pagination a{
 		padding: 6px 12px;
@@ -320,6 +357,19 @@
 	}
 	.md-popupbaithi .page-cuoc-thi-anh-detail .tab-content .md-cachlam p{
 		font-size: calc(3px + 1vw);
+	}
+}
+@media screen and (max-width: 500px){
+	.wrapper-banner .md-text{
+		font-size: calc(5px + 1vw);
+	}
+	.wrapper-banner .bt-thungay{
+		font-size: calc(4px + 1.8vw);
+		padding: 7px 13px;
+	}
+	.wrapper-banner .bt-thuvien{
+		font-size: calc(4px + 1.8vw);
+		padding: 7px 13px;
 	}
 }
 @media screen and (max-width: 450px){
