@@ -1,8 +1,55 @@
+.wrapper-banner {
+	position: relative;
+	background: #f7eecd;
+	padding-bottom: 20px;
+}
+.wrapper-banner .content-text{
+	position: absolute;
+	left: 20%;
+	top: 72%;
+	width: 30%;
+	text-align: center;
+
+}
+.wrapper-banner .content-text p{
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: calc(5px + 1vw);
+}
+.wrapper-banner .content-text span{
+	 font-family: "UTMBebas";
+	 font-weight: 700;
+	 border-radius: 20px;
+	 background: #ffcf32;
+	 font-size: calc(5px + 1vw);
+	 padding: 3px 10px 5px;
+}
 .cuoc-thi-anh-new .md-gift-2 .md-content img{
 	width: 100%;
 }
-.cuoc-thi-anh-new .md-gift-2 .md-content img.mg-top{
-	margin-top: -22px;
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content{
+	position: relative;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text img{
+	width: 70%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text{
+	position: absolute;
+	left: 45%;
+	top: 55%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .md-text{
+	left: 5%;
+	top: 47%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .md-text img{
+	width: 100%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text p{
+	margin-bottom: 2px;
+	font-size: calc(3px + 1vw);
 }
 .cuoc-thi-anh-new .md-gift-2{
 	background: #f7eecd;
@@ -202,6 +249,24 @@
 	margin-right: 2%;
 }
 @media screen and (max-width: 767px){
+	.wrapper-banner{
+		background: #f4e8c5;
+	}
+	.wrapper-banner .content-text{
+		width: 80%;
+		left: 50%;
+		top: 68%;
+		transform: translateX(-50%);
+	}
+	.wrapper-banner .content-text p{
+		font-size: calc(10px + 1.3vw);
+	}
+	.wrapper-banner .content-text span{
+		font-size: calc(10px + 1.3vw);
+	}
+	.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text p{
+		font-size: calc(3px + 1vw);
+	}
 	.cuoc-thi-anh-new .md-gift-2{
 		padding: 0px 0px 40px;
 		background: #f4e8c6;
@@ -258,12 +323,12 @@
 }
 @media screen and (max-width: 500px){
 	.cuoc-thi-anh-new .main-page .md-nav-tab-1 span{
-		font-size: calc(5px + 1.5vw);
+		font-size: calc(7px + 1.5vw);
 	}
 }
 @media screen and (max-width: 400px){
 	.cuoc-thi-anh-new .main-page .md-nav-tab-1 span{
-		font-size: calc(5px + 1vw);
+		font-size: calc(7px + 1vw);
 		margin-right: 2px;
 	}
 }
