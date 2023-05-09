@@ -1,0 +1,269 @@
+.cuoc-thi-anh-new .md-gift-2 .md-content img{
+	width: 100%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content img.mg-top{
+	margin-top: -22px;
+}
+.cuoc-thi-anh-new .md-gift-2{
+	background: #f7eecd;
+	padding: 0px 15% 40px;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-title img{
+	display: table;
+	margin: 0 auto;
+	width: 40%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-submit{
+	text-transform: uppercase;
+    background: #000;
+    padding: 0px 15px;
+    border-radius: 50px;
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: calc(10px + 1.5vw);
+    border: 1px solid #000;
+    display: table;
+    margin: 0 auto;
+    font-family: "UTMBebas";
+}
+.cuoc-thi-anh-new .md-slide-2{
+	position: relative;
+}
+.cuoc-thi-anh-new .md-slide-2 .owl-dots{
+	display: none;
+}
+.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav span{
+	display: none;
+}
+.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav button.owl-next{
+	background: url(../images/icon-next.png) no-repeat;
+    background-size: 100% 100%;
+    width: 33px;
+    height: 62px;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav button.owl-prev{
+	background: url(../images/icon-prev.png) no-repeat;
+    background-size: 100% 100%;
+    width: 33px;
+    height: 62px;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav button:focus{
+	outline: none;
+}
+.cuoc-thi-anh-new .md-slide-2 .item{
+	position: relative;
+}
+.cuoc-thi-anh-new .md-slide-2 .md-content{
+	position: absolute;
+	width: 35%;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20%;
+	text-align: center;
+}
+.cuoc-thi-anh-new .md-slide-2 .md-content h6{
+	color: #ea1b26;
+	font-family: "UTMBebas";
+	font-size: calc(20px + 2vw);
+	margin-bottom: 15px;
+}
+.cuoc-thi-anh-new .md-slide-2 .md-content span{
+	font-family: "SVN-GothamBook";
+	font-size: 15px;
+	color: #000;
+}
+.cuoc-thi-anh-new .md-slide-2 .md-content-2{
+	transform: translate(0);
+	top: 12%;
+}
+.md-congthuc{
+	display: none;
+	padding: 0px;
+}
+.md-congthuc .page-starbar-detail{
+	margin-bottom: 0px;
+}
+.cuoc-thi-anh-new .content-baithi-2 .md-right h6{
+	font-family: "UTMBebas";
+	font-size: calc(20px + 1vw);
+}
+.cuoc-thi-anh-new .content-baithi-2.mg-bottom{
+	margin-bottom: 30px;
+}
+.cuoc-thi-anh-new .content-baithi-2{
+	background: #f1f1f1;
+	border-radius: 30px;
+}
+.cuoc-thi-anh-new .content-baithi-2 .md-right{
+	padding: 20px 3% 0px;
+	width: 50%;
+}
+.cuoc-thi-anh-new .content-baithi-2 .md-left{
+	width: 50%;
+}
+.cuoc-thi-anh-new .content-baithi-2 .md-right img{
+	width: 80%;
+}
+.cuoc-thi-anh-detail-new .tab-content img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.cuoc-thi-anh-detail-new .tab-content .md-content{
+	background: #FFF;
+	padding: 10px;
+	border-radius: 10px;
+}
+.cuoc-thi-anh-detail-new .tab-content h6{
+	border-bottom: none;
+	font-size: calc(7px + 1vw);
+}
+.cuoc-thi-anh-detail-new .tab-content .col-md-4{
+	margin-bottom: 30px;
+}
+.md-tropical .md-img-tropical img{
+	width: 100%;
+	padding: 5px;
+}
+.md-tropical .md-img-tropical{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.md-tropical .md-img-tropical .md-left-tropical{
+	flex: 75%;
+}
+.md-tropical .md-img-tropical .md-right-tropical{
+	flex: 25%;
+}
+.md-tropical h6{
+	text-transform: uppercase;
+	color: #ff9e20;
+	font-size: calc(10px + 1.5vw);
+	margin-bottom: 5px;
+}
+.md-tropical .md-name-tropical{
+	font-weight: 700;
+}
+.md-tropical .md-name-tropical p{
+	float: left;
+	font-size: calc(10px + 1vw);
+	margin-bottom: 10px;
+}
+.md-tropical .md-name-tropical span{
+	float: right;
+}
+.cuoc-thi-anh-new .content-cachthuc span{
+	display: block;
+	margin-left: 30px;
+}
+.cuoc-thi-anh-new .content-cachthuc p.mg-top{
+	margin-top: 30px;
+}
+.md-tropical{
+	display: none;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.cuoc-thi-anh-new .content-baithi .md-tropical{
+	display: block;
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.cuoc-thi-anh-new .md-tropical h6{
+	text-transform: uppercase;
+	color: #ff9e20;
+	font-size: calc(10px + 1.5vw);
+	margin-bottom: 5px;
+	border: none;
+}
+.cuoc-thi-anh-new .content-baithi .btn-submit-1{
+	text-align: center;
+}
+.cuoc-thi-anh-new .main-page .md-note{
+	font-style: italic;
+    font-weight: 100;
+    font-size: calc(2px + 0.8vw);
+}
+.cuoc-thi-anh-detail-new .md-navbar .md-nav-tab .item span{
+	width: 23%;
+	margin-right: 2%;
+}
+@media screen and (max-width: 767px){
+	.cuoc-thi-anh-new .md-gift-2{
+		padding: 0px 0px 40px;
+		background: #f4e8c6;
+	}
+	.cuoc-thi-anh-new .md-gift-2 .md-content img.mg-top{
+		margin-top: -15px;
+	}
+	.cuoc-thi-anh-new .md-gift-2 .md-title img{
+		margin-left: 43%;
+	}
+	.cuoc-thi-anh-new .md-slide-2 .md-content{
+		left: 50%;
+		transform: translateX(-50%);
+		top: 2%;
+		width: 80%;
+	}
+	.cuoc-thi-anh-new .md-slide-2 .md-content h6{
+		margin-bottom: 5px;
+	}
+	.cuoc-thi-anh-new .md-slide-2 .md-content span{
+		font-size: 13px;
+	}
+	.cuoc-thi-anh-new .main-page .md-nav-tab-1 span{
+		font-size: calc(10px + 1.5vw);
+	}
+	.cuoc-thi-anh-new .main-page .md-note{
+		font-size: calc(6px + 1vw);
+	}
+	.cuoc-thi-anh-new .main-page .tab-content{
+		padding: 20px;
+	}
+	.cuoc-thi-anh-new .content-baithi-2 .md-right{
+		padding: 10px 2%;
+	}
+	.cuoc-thi-anh-new .content-baithi-2 .md-right h6{
+		font-size: calc(15px + 1vw);
+	}
+	.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav button.owl-prev{
+		left: 5%;
+	}
+	.cuoc-thi-anh-new .md-slide-2 .owl-carousel .owl-nav button.owl-next{
+		right: 5%;
+	}
+	.cuoc-thi-anh-new .md-slide-2 .md-content h6{
+		font-size: calc(25px + 2vw);
+	}
+	.md-tropical{
+		width: 100%;
+	}
+	.cuoc-thi-anh-detail-new .md-navbar .md-nav-tab .item span{
+		width: 45%;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 500px){
+	.cuoc-thi-anh-new .main-page .md-nav-tab-1 span{
+		font-size: calc(5px + 1.5vw);
+	}
+}
+@media screen and (max-width: 400px){
+	.cuoc-thi-anh-new .main-page .md-nav-tab-1 span{
+		font-size: calc(5px + 1vw);
+		margin-right: 2px;
+	}
+}
