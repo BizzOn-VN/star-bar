@@ -81,6 +81,11 @@
 	font-size: calc(25px + 2vw);
 	margin-bottom: 15px;
 }
+.cuoc-thi-anh-new .md-slide-2 .md-content span{
+	font-family: "SVN-GothamBook";
+	font-size: 18px;
+	color: #000;
+}
 
 @media screen and (max-width: 767px){
 	.wrapper-banner .content-text p.text-1{
@@ -99,5 +104,7 @@
 	.cuoc-thi-anh-new .content-baithi-2 .md-right h6{
 		font-size: calc(15px + 1vw);
 	}
-
+	.cuoc-thi-anh-new .md-slide-2 .md-content span{
+		font-size: 18px;
+	}
 }
