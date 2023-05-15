@@ -1,0 +1,103 @@
+.wrapper-banner .content-text p.text-1{
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: calc(5px + 1vw);
+}
+.wrapper-banner .content-text p.text-2{
+	 font-family: "UTMBebas";
+	 font-weight: 700;
+	 border-radius: 20px;
+	 background: #ffcf32;
+	 font-size: calc(8px + 1vw);
+	 padding: 3px 15px 5px;
+	 animation: img-gift 5s infinite;
+	 display: inline-block;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .img-gift{
+	width: 40%;
+	position: absolute;
+	left: 0%;
+	top: -12%;
+	animation: img-gift 5s infinite;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .img-gift{
+	top: -6%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .img-bg{
+	width: 80%;
+	margin-left: 20%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .img-gift{
+	right: 0%;
+	left: auto;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .img-bg{
+	margin-left: auto;
+	margin-right: 20%;
+}
+@keyframes img-gift{
+	0%{-webkit-transform:scale(1);transform:scale(1)}
+	10%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+	17%{-webkit-transform:scale(1);transform:scale(1)}
+	24%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+	31%{-webkit-transform:scale(1);transform:scale(1)}
+	38%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+	45%{-webkit-transform:scale(1);transform:scale(1)}
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content {
+	margin-top: 50px;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content{
+	position: relative;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text img{
+	width: 70%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text{
+	position: absolute;
+	left: 45%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .md-text{
+	left: auto;
+	right: 45%;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content{
+	margin-top: 30px;
+}
+.cuoc-thi-anh-new .md-gift-2 .md-content .bot-content .md-text img{
+	width: 100%;
+}
+.cuoc-thi-anh-new .md-gift-2{
+	background: #f7eecd;
+	padding: 30px 15% 40px;
+}
+.cuoc-thi-anh-new .md-slide-2 .md-content h6{
+	color: #ea1b26;
+	font-family: "UTMBebas";
+	font-size: calc(25px + 2vw);
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px){
+	.wrapper-banner .content-text p.text-1{
+		font-size: calc(10px + 1.3vw);
+	}
+	.wrapper-banner .content-text p.-text-2{
+		font-size: calc(13px + 1.3vw);
+	}
+	.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text p{
+		font-size: calc(5px + 1vw);
+	}
+	.cuoc-thi-anh-new .md-gift-2{
+		padding: 30px 0px 40px;
+		background: #f4e8c6;
+	}
+	.cuoc-thi-anh-new .content-baithi-2 .md-right h6{
+		font-size: calc(15px + 1vw);
+	}
+
+}

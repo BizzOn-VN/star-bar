@@ -300,10 +300,10 @@
 		top: 68%;
 		transform: translateX(-50%);
 	}
-	.wrapper-banner .content-text p{
+	.wrapper-banner .content-text p.text-1{
 		font-size: calc(10px + 1.3vw);
 	}
-	.wrapper-banner .content-text span{
+	.wrapper-banner .content-text p.-text-2{
 		font-size: calc(13px + 1.3vw);
 	}
 	.cuoc-thi-anh-new .md-gift-2 .md-content .top-content .md-text p{
