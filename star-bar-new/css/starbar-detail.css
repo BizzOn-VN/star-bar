@@ -549,3 +549,65 @@ font-face {
 		padding: 7px 13px;
 	}
 }
+
+.wrapper-banner {
+	position: relative;
+	background: #f7eecd;
+	padding-bottom: 20px;
+}
+.wrapper-banner .content-text{
+	position: absolute;
+	left: 20%;
+	top: 72%;
+	width: 35%;
+	text-align: center;
+
+}
+.wrapper-banner .content-text p.text-1{
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: calc(2px + 0.7vw);
+}
+
+.banner-cuoc-thi-anh .bt-thuvien{
+	font-size: calc(3px + 0.8vw) ;
+	left: 37%;
+}
+.banner-cuoc-thi-anh .bt-thungay{
+	font-size: calc(3px + 0.8vw) ;
+	left: 27%;
+}
+@media screen and (max-width: 991px){
+	.banner-cuoc-thi-anh .bt-thungay{
+		left: 23%;
+	}
+}
+@media screen and (max-width: 767px){
+	.wrapper-banner{
+		background: #f4e8c5;
+	}
+	.wrapper-banner .content-text{
+		width: 80%;
+		left: 50%;
+		top: 68%;
+		transform: translateX(-50%);
+	}
+	.wrapper-banner .content-text p.text-1{
+		font-size: calc(9px + 1vw);
+	}
+	.banner-cuoc-thi-anh .bt-thuvien{
+		font-size: calc(10px + 1.2vw);
+		left: 65%;
+		transform: translateX(-50%);
+	}
+	.banner-cuoc-thi-anh .bt-thungay{
+		font-size: calc(10px + 1.2vw);
+		left: 35%;
+		transform: translateX(-50%);
+	}
+}
+@media screen and (max-width: 400px){
+	.wrapper-banner .content-text{
+		top: 62%;
+	}
+}
