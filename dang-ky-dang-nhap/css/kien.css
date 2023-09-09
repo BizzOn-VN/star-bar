@@ -108,7 +108,7 @@
 	background: transparent;
 }
 .right-page .select-main .dropdown-menu{
-	width: 28%;
+	width: 100%;
 }
 .right-page .select-main button:after{
 	content: "";
